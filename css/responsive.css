@@ -1,0 +1,122 @@
+/* Mobile First */
+@media screen and (min-width: 576px) {
+    /* testa della pagina */
+    header {
+        width: calc(100vw - 200px);
+    }
+
+    /* corpo della pagina */
+    main {
+        width: calc(100vw - 200px);
+    }
+
+    /* SIDEBAR */
+    aside {
+        width: 200px;
+        padding: 20px;
+        padding-bottom: 10px;
+    }
+
+    aside .card-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    aside .card .playlist-menu {
+        margin-top: 2rem;
+    }
+
+    aside .card-menu .img-name {
+        margin-left: 0.3rem;
+        text-decoration-line: none;
+    }
+
+    .flex-xmain {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    aside .spotify-mobile {
+        display: none;
+    }
+
+    aside .img-logo {
+        margin-bottom: 1.7rem;
+    }
+
+    aside .spotify-desktop {
+        width: 130px;
+    }
+
+    aside .no-mobile {
+        display: block;
+    }
+
+    aside .playlist-menu h5 {
+        margin-bottom: 0.5rem;
+    }
+
+    /* croce playlist */
+    aside .plus {
+        width: 45px;
+        height: 45px;
+        background-color: #d2d2d2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    aside .plus hr {
+        width: 25px;
+        border: 2px solid #000000;
+        background-color: #000000;
+    }
+
+    aside .plus hr:last-child {
+        position: absolute;
+        top: 46%;
+        transform: rotate(90deg) ;
+    }
+    /* fine croce playlist */
+
+    aside .add-to-playlist {
+        margin-bottom: 0.7rem;
+    }
+
+    aside .add-to-playlist a:last-child {
+        margin-left: 0.7rem;
+        text-decoration-line: none;
+    }
+
+    aside .ul-playlist li {
+        line-height: 2rem;
+    }
+    
+    aside .ul-playlist a {
+        text-decoration-line: none;
+        font-weight: 500;
+    }
+
+    /* colonna bassa */
+
+    aside .card-download a:last-child {
+        margin-left: 0.7rem;
+        text-decoration-line: none;
+    }
+
+    aside .card-profile a:last-child {
+        margin-left: 0.7rem;
+        text-decoration-line: none;
+    }
+
+    aside .card-bottom hr {
+        margin: 0.7rem 0;
+        border: 1px solid #8d8d8d;
+        background-color: #8d8d8d;
+    }
+
+    aside .card-download img {
+        margin-bottom: 0;
+    }
+}
