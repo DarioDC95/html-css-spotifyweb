@@ -170,17 +170,26 @@ section .col-md .fa-circle-play {
     margin-bottom: 2rem;
 }
 
-.john-doe .row-title {
+.two-to-tow-section .row-title {
     margin-bottom: 2rem;
 }
 
-.john-doe .row-title h2 {
+.two-to-tow-section .row-title h2 {
     margin-bottom: 0.5rem;
 }
 
-.john-doe .col-md {
+.two-to-tow-section .col-md {
     width: calc((100% / 2) - 1rem);
     margin-right: 1rem;
+}
+
+/* popular artists */
+.artists .col-md .fa-circle-play {
+    border-radius: 50%;
+}
+
+.artists .col-md img {
+    border-radius: 50%;
 }
 
 /* SIDEBAR della pagina */
