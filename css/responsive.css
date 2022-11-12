@@ -90,6 +90,7 @@
 
     aside .ul-playlist li {
         line-height: 2rem;
+        list-style-type: none;
     }
 
     /* colonna bassa */

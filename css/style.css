@@ -69,7 +69,32 @@ header a:hover {
 main {
     width: calc(100vw - 50px);
     height: calc(100vh - 80px);
+    padding-top: 110px;
     background-color: #141922;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#nav-bar ul li {
+    margin-bottom: 2rem;
+}
+
+#nav-bar li a {
+    display: block;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+#nav-bar li hr {
+    width: 25%;
+    border: 1px solid yellow;
+    margin: 0 auto;
+    margin-top: 0.1rem;
 }
 
 /* SIDEBAR della pagina */
