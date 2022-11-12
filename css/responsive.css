@@ -91,10 +91,6 @@
     aside .ul-playlist li {
         line-height: 2rem;
     }
-    
-    aside .ul-playlist a {
-        font-weight: 500;
-    }
 
     /* colonna bassa */
     aside .card-bottom {
@@ -103,6 +99,10 @@
 
     aside .card-bottom a:hover {
         filter: brightness(200%);
+    }
+
+    aside .card-download {
+        margin-bottom: 0;
     }
 
     aside .card-download span {
@@ -122,5 +122,26 @@
 
     aside .card-download img {
         margin-bottom: 0;
+    }
+
+    /* fondo della pagina */
+
+    /* colonna di sinistra */
+    footer .chosen-song img {
+        width: 50px;
+    }
+
+    footer .chosen-song img {
+        width: 50px;
+    }
+
+    footer .reaction {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer .reaction .fa-heart {
+        margin-bottom: 0;
+        margin-right: 0.3rem;
     }
 }

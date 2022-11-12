@@ -7,9 +7,12 @@
     <title>Spotify</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <!-- goggle font -->
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="container-top-out">
@@ -99,7 +102,51 @@
 
     <!-- fondo della pagina -->
     <footer>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="card">
+                        <div class="chosen-song">
+                            <img src="./img/sinister.jpeg" alt="Sinister">
+                            <div class="description-chosen-song">
+                                <span class="color-white font-size-xs">Sinister</span>
+                                <a href="#" class="underline-none color-grey font-size-xs">Brano Nome</a>
+                            </div>
+                        </div>
+                        <div class="reaction">
+                            <i class="fa-regular fa-heart color-grey"></i>
+                            <i class="fa-regular fa-folder color-grey"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <div class="input">
+                            <i class="fa-solid fa-shuffle color-white"></i>
+                            <i class="fa-solid fa-backward-step color-white"></i>
+                            <i class="fa-regular fa-circle-play color-white"></i>
+                            <i class="fa-solid fa-forward-step color-white"></i>
+                            <i class="fa-solid fa-rotate-right color-white"></i>
+                        </div>
+                        <div class="slidecontainer">
+                            <span class="color-white">0:25</span>
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            <span class="color-white">4:35</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card">
+                        <div class="functions">
+                            <i class="fa-solid fa-list-ul color-white"></i>
+                            <i class="fa-solid fa-desktop color-white"></i>
+                            <i class="fa-solid fa-volume-high color-white"></i>
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
