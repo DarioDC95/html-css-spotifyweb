@@ -27,6 +27,10 @@
     font-size: 14px;
 }
 
+.underline-none {
+    text-decoration-line: none;
+}
+
 /* testa della pagina */
 header {
     width: calc(100vw - 50px);
@@ -87,6 +91,7 @@ aside .img-logo {
 
 aside .card-menu {
     margin-bottom: 0.5rem;
+    cursor: pointer;
 }
 
 aside .card-menu img {
@@ -95,7 +100,7 @@ aside .card-menu img {
 }
 
 .flex-xmain {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
 }
 

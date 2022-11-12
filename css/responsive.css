@@ -17,10 +17,6 @@
         padding-bottom: 10px;
     }
 
-    aside .card .playlist-menu {
-        margin-top: 2rem;
-    }
-
     aside .card-menu .img-name {
         margin-left: 0.3rem;
         text-decoration-line: none;
@@ -45,6 +41,11 @@
 
     aside .no-mobile {
         display: block;
+    }
+
+    /* PLAYLIST */
+    aside .card .playlist-menu {
+        margin-top: 2rem;
     }
 
     aside .playlist-menu h5 {
