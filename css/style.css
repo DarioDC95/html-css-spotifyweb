@@ -87,6 +87,10 @@ main {
     margin-bottom: 2rem;
 }
 
+#nav-bar li a:hover {
+    filter: brightness(200%);
+}
+
 #nav-bar li a {
     display: block;
     margin: 0 1rem;
