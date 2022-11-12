@@ -100,7 +100,7 @@ aside .card-menu img {
 }
 
 .flex-xmain {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
 }
 

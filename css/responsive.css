@@ -22,7 +22,8 @@
         text-decoration-line: none;
     }
 
-    .flex-xmain {
+    aside .flex-xmain {
+        display: inline-flex;
         justify-content: flex-start;
         align-items: center;
     }
