@@ -106,6 +106,12 @@ aside .img-logo {
     margin-bottom: 1rem;
 }
 
+aside .card .card-menu:focus{
+    border-left: 5px solid yellow;
+    padding-left: 15px;
+    margin-left: -20px;
+}
+
 aside .card-menu {
     margin-bottom: 0.5rem;
     cursor: pointer;
