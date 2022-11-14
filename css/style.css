@@ -396,6 +396,14 @@ footer .col-lg input[type="range"] {
     cursor: pointer;
 }
 
+footer input[type="range"] {
+    accent-color: #c1c1c1;
+}
+
+footer input[type="range"]:hover {
+    accent-color: yellow;
+}
+
 footer .slidecontainer span {
     font-size: 10px;
 }
