@@ -70,7 +70,7 @@ header a:hover {
 main {
     width: calc(100vw - 50px);
     height: calc(100vh - 80px);
-    padding: 110px 0.5rem 50px 1.5rem;
+    padding: 110px 0.5rem 0px 1.5rem;
     background-color: #141922;
     overflow-y: auto;
 }
