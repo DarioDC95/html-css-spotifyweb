@@ -76,6 +76,10 @@ main {
 }
 
 /* navbar */
+#nav-bar .row {
+    justify-content: center;
+}
+
 #nav-bar ul {
     list-style-type: none;
     display: flex;
