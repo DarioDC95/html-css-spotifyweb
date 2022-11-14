@@ -213,7 +213,10 @@ aside .row {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+}
+
+aside .row .col:first-child {
+    flex-grow: 1;
 }
 
 aside .card, .card-bottom {
