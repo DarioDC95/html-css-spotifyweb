@@ -101,7 +101,7 @@ main {
     cursor: pointer;
 }
 
-#nav-bar li hr {
+#nav-bar li .strap {
     width: 25%;
     border: 1px solid yellow;
     margin: 0 auto;
@@ -344,7 +344,6 @@ footer .reaction .fa-heart {
 
 /* colonna larga */
 footer .row .col-lg {
-    min-width: 180px;
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -358,8 +357,9 @@ footer .col-lg .card {
     width: 100%;
 }
 
-footer .input i {
-    vertical-align: middle;
+footer .col-lg .input {
+    display: flex;
+    align-items: center;
 }
 
 footer .input i:hover {
